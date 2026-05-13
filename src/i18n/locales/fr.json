@@ -12,6 +12,8 @@
     "overview": "Vue d'ensemble",
     "capex": "CAPEX / OPEX",
     "revenues": "Modèle de Revenus",
+    "financials": "États Financiers",
+    "indicators": "Indicateurs",
     "valuation": "Évaluation",
     "premoney": "Pré/Post Money",
     "billion": "Vers le Milliard"
@@ -135,7 +137,18 @@
     }
   },
   "revenues": {
-    "title": "Modèle de Revenus — Unité par Unité",
+    "title": "Modèle de Revenus — Unité par Unité et Consolidé",
+    "consolidatedHeader": "Vue Consolidée",
+    "unitByUnitHeader": "Vue par Unité",
+    "kpiTotal": "Revenus Totaux Année {{n}}",
+    "kpiTotalSub": "Scénario {{label}} · somme de toutes les unités",
+    "kpiCagr": "CAGR Année 1 → {{n}}",
+    "kpiCagrSub": "Taux de croissance annuel composé",
+    "kpiTopUnit": "Unité Leader",
+    "kpiActiveUnits": "Unités Actives",
+    "kpiActiveUnitsSub": "Avec revenu >$0.5M en Année {{n}}",
+    "totalChartTitle": "Revenus Totaux par Scénario — {{n}} Ans (USD M)",
+    "mixTitle": "Composition par Unité — Année {{n}}",
     "consolidatedTitle": "Revenus Consolidés par Unité — Scénario {{label}} · {{n}} Ans (USD M)",
     "capacityTitle": "Hypothèses de Capacité vs. Utilisation",
     "capLabel": "Cap. : {{value}}",
@@ -323,6 +336,112 @@
         "value": "MOIC Investisseur 7–9×",
         "sub": "Sortie via IPO BODIVA / JSE ou trade sale"
       }
+    }
+  },
+  "financials": {
+    "title": "États Financiers",
+    "note": "Valeurs en USD M. Hypothèses : COGS 42 % → 35 % (décroissance linéaire), DSO 75j, DIO 60j, DPO 60j, taux d'imposition 25 %, intérêts 9 %, durée de vie PP&E 10 ans.",
+    "subTabs": {
+      "is": "Compte de Résultat",
+      "bs": "Bilan",
+      "cf": "Flux de Trésorerie"
+    },
+    "charts": {
+      "isTrend": "Tendance — Revenus, EBITDA et Résultat Net",
+      "bsTrend": "Tendance — Actifs, Capitaux Propres et Dette",
+      "cfTrend": "Tendance — Flux Opérationnels, d'Investissement et de Financement"
+    },
+    "is": {
+      "revenueSection": "Revenus et Marge Brute",
+      "revenue": "Revenus Opérationnels",
+      "cogs": "(–) Coût des Ventes (COGS)",
+      "grossProfit": "Marge Brute",
+      "opexSection": "Charges Opérationnelles",
+      "opex": "(–) OPEX (Personnel, Utilities, G&A, etc.)",
+      "ebitda": "EBITDA",
+      "da": "(–) Amortissements & Provisions",
+      "ebit": "EBIT (Résultat d'Exploitation)",
+      "interest": "(–) Charges Financières",
+      "ebt": "EBT (Résultat Avant Impôt)",
+      "tax": "(–) Impôt sur les Bénéfices",
+      "netIncome": "Résultat Net"
+    },
+    "bs": {
+      "currentAssetsSection": "Actifs Courants",
+      "cash": "Trésorerie et Équivalents",
+      "ar": "Créances Clients",
+      "inventory": "Stocks",
+      "currentAssetsTotal": "Total Actifs Courants",
+      "nonCurrentAssetsSection": "Actifs Non-Courants",
+      "ppeGross": "Immobilisations Brutes (PP&E)",
+      "accumDep": "(–) Amortissements Cumulés",
+      "ppeNet": "Immobilisations Nettes",
+      "intangibles": "Actifs Incorporels (Licences, GMP)",
+      "totalAssets": "TOTAL ACTIF",
+      "currentLiabSection": "Passif Courant",
+      "ap": "Dettes Fournisseurs",
+      "shortDebt": "Dette Court Terme",
+      "currentLiabTotal": "Total Passif Courant",
+      "longDebt": "Dette Long Terme",
+      "totalLiab": "Total Passif",
+      "totalDebt": "Dette Totale",
+      "equitySection": "Capitaux Propres",
+      "paidInCapital": "Capital Libéré",
+      "retainedEarnings": "Résultats Reportés",
+      "totalEquity": "Total Capitaux Propres",
+      "totalLE": "TOTAL PASSIF + CAPITAUX PROPRES"
+    },
+    "cf": {
+      "operatingSection": "Activités Opérationnelles",
+      "netIncome": "Résultat Net",
+      "da": "(+) Amortissements",
+      "changeWC": "(–) Variation BFR",
+      "ocf": "Cash Flow Opérationnel (OCF)",
+      "investingSection": "Activités d'Investissement",
+      "capex": "(–) CAPEX",
+      "icf": "Cash Flow d'Investissement (ICF)",
+      "financingSection": "Activités de Financement",
+      "debtChange": "Émission / Remboursement de Dette",
+      "equityIssued": "Augmentation de Capital",
+      "fcfFinancing": "Cash Flow de Financement (FCF)",
+      "netChangeCash": "Variation Nette de Trésorerie",
+      "endingCash": "TRÉSORERIE FINALE"
+    }
+  },
+  "indicators": {
+    "title": "Indicateurs Financiers",
+    "note": "Indicateurs dérivés des États Financiers. Couleurs : vert = sain · rouge = en dessous du seuil d'alerte · gris = neutre / sans référence.",
+    "trendsTitle": "Évolution des Indicateurs Clés (12 Ans)",
+    "groups": {
+      "profitability": "Rentabilité",
+      "liquidity": "Liquidité",
+      "solvency": "Solvabilité",
+      "efficiency": "Efficacité Opérationnelle",
+      "valuation": "Évaluation (Multiples)"
+    },
+    "metrics": {
+      "grossMargin": "Marge Brute",
+      "ebitdaMargin": "Marge EBITDA",
+      "ebitMargin": "Marge EBIT",
+      "netMargin": "Marge Nette",
+      "roe": "ROE",
+      "roa": "ROA",
+      "roic": "ROIC",
+      "currentRatio": "Ratio de Liquidité Générale",
+      "quickRatio": "Ratio de Liquidité Réduite",
+      "cashRatio": "Ratio de Liquidité Immédiate",
+      "debtEquity": "Dette / Capitaux Propres",
+      "debtEbitda": "Dette / EBITDA",
+      "interestCoverage": "Couverture des Intérêts",
+      "equityRatio": "Autonomie Financière",
+      "assetTurnover": "Rotation de l'Actif",
+      "dso": "DSO (Encaissement)",
+      "dio": "DIO (Stocks)",
+      "dpo": "DPO (Paiement)",
+      "ccc": "Cycle de Conversion de Trésorerie",
+      "evRevenue": "EV / Revenus",
+      "evEbitda": "EV / EBITDA",
+      "pe": "P/E (implicite)"
     }
   },
   "footer": "CONFIDENTIEL | SANEP Pharmaceutique / CIFAB Luanda | Modèle d'Évaluation {{year}} | Pour usage exclusif dans des processus de financement autorisés"
