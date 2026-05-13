@@ -1,0 +1,329 @@
+{
+  "header": {
+    "subtitle": "Valuation & Investment Model · Ring-Fenced SPV",
+    "scenarioLabel": "Scenario:",
+    "horizonLabel": "Horizon:",
+    "yearsShort": "{{n}} Years",
+    "languageAria": "Select language",
+    "themeToggleLight": "Switch to light mode",
+    "themeToggleDark": "Switch to dark mode"
+  },
+  "tabs": {
+    "overview": "Overview",
+    "capex": "CAPEX / OPEX",
+    "revenues": "Revenue Model",
+    "valuation": "Valuation",
+    "premoney": "Pre/Post Money",
+    "billion": "Path to a Billion"
+  },
+  "common": {
+    "year": "Year {{n}}",
+    "years": "years",
+    "scenario": "{{label}} Scenario",
+    "scenarioHorizon": "{{label}} Scenario · {{n}}-Year Horizon",
+    "scenarioHorizonShort": "{{label}} Scenario · {{n}} years",
+    "margin": "Margin: {{n}}%",
+    "weight": "Weight: {{n}}%",
+    "concluded": "{{n}}% done",
+    "evYearLabel": "EV Year {{h}} ({{year}})"
+  },
+  "scenarios": {
+    "conservative": {
+      "label": "Conservative",
+      "desc": "Slow ramp-up, minimal margins, execution friction"
+    },
+    "base": {
+      "label": "Base",
+      "desc": "Normal execution, margins comparable to African peers"
+    },
+    "optimistic": {
+      "label": "Optimistic",
+      "desc": "Accelerated SADC expansion, fast GMP, strong exports"
+    }
+  },
+  "overview": {
+    "title": "CIFAB Valuation — Executive Summary",
+    "preMoneyDcf": "Pre-Money DCF",
+    "kpiRevenue": "Revenue Year {{n}}",
+    "kpiRevenueSub": "USD — Selected scenario",
+    "kpiEbitda": "EBITDA Year {{n}}",
+    "kpiEv": "EV (Exit)",
+    "kpiEvSub": "{{mult}}× EBITDA — Sector multiple",
+    "kpiIrr": "Implied IRR",
+    "kpiIrrSub": "Investor return",
+    "kpiPayback": "Payback",
+    "kpiPaybackSub": "Invested capital",
+    "paybackValue": "{{range}} years",
+    "chartTitle": "{{n}}-Year Financial Evolution — {{label}} Scenario",
+    "chartRevenue": "Revenue $M",
+    "chartEbitda": "EBITDA $M",
+    "chartEv": "EV $M",
+    "compareTitle": "3-Scenario Comparison — Year {{n}}",
+    "billionTitle": "🎯 Path to a Billion",
+    "billionBaseLine": "Base: $1B EV reached in <0>2033–2034</0> (Year 7–8)",
+    "billionOptimisticLine": "Optimistic: $1B EV reached in <0>2031</0> (Year 5)",
+    "billionConservativeLine": "Conservative: max EV $516M over 12 years",
+    "assumptionsTitle": "Core Assumptions — {{label}} Scenario",
+    "assumption": {
+      "waccLabel": "WACC",
+      "waccNote": "Angola pharma discount rate",
+      "multLabel": "Exit Multiple",
+      "multNote": "African peer comparables",
+      "cagrLabel": "Market CAGR",
+      "cagrNote": "Africa pharma 2024–34",
+      "importsLabel": "Import Substitution",
+      "importsNote": "Angola market share target"
+    }
+  },
+  "capex": {
+    "title": "CAPEX & OPEX Structure",
+    "headerDone": "deployed",
+    "headerNeed": "to raise",
+    "headerTotal": "total",
+    "phaseTotal": "Total: {{value}}",
+    "phase1": "Phase 1 — Operational",
+    "phase2": "Phase 2 — Installation 2026–2028",
+    "phase3": "Phase 3 — Greenfield 2028–2030",
+    "opexTitle": "Consolidated OPEX — Full Operation (Year 7+)",
+    "capexChartTitle": "CAPEX by Phase — Distribution",
+    "barRealized": "Deployed ($M)",
+    "barPending": "To Raise ($M)",
+    "units": {
+      "SVD": "SANEP Vida (full scale)",
+      "OKV": "Okavango Pharma",
+      "FPT": "Fibrex PharmaTech",
+      "ZMB": "Zambezi Pharma",
+      "NTA": "Animal Nutrition (expansion)",
+      "AKF": "AkieseFarma",
+      "PTL": "PetrisLab",
+      "SQA": "SQA – Angola Chemicals",
+      "INF": "CIFAB Infrastructure Phase 2+3"
+    },
+    "opexItems": {
+      "cogs": {
+        "label": "Raw Materials Cost (COGS)",
+        "note": "% of revenue — decreases with scale"
+      },
+      "personnel": {
+        "label": "Personnel (850 full positions)",
+        "note": "95% national workforce"
+      },
+      "utilities": {
+        "label": "Utilities (energy, water, HVAC)",
+        "note": "30% solar (future reduction)"
+      },
+      "regulatory": {
+        "label": "Regulatory / QC / GMP",
+        "note": "ARMED, WHO-GMP, ISO certifications"
+      },
+      "distribution": {
+        "label": "Distribution & Logistics",
+        "note": "AkieseFarma (in-house) + 3PL partners"
+      },
+      "ga": {
+        "label": "G&A (admin, legal, audit)",
+        "note": "Big 4 audit included"
+      },
+      "maintenance": {
+        "label": "Equipment Maintenance",
+        "note": "Manufacturer SLAs (Bram-Cor, IMA)"
+      },
+      "rnd": {
+        "label": "R&D (PetrisLab)",
+        "note": "BioCubaFarma tech transfer"
+      }
+    }
+  },
+  "revenues": {
+    "title": "Revenue Model — Unit by Unit",
+    "consolidatedTitle": "Consolidated Revenue by Unit — {{label}} Scenario · {{n}} Years (USD M)",
+    "capacityTitle": "Capacity vs. Utilization Assumptions",
+    "capLabel": "Cap: {{value}}",
+    "utilLabel": "Util: {{value}}",
+    "units": {
+      "sanep": "SANEP Vida",
+      "okavango": "Okavango",
+      "zambezi": "Zambezi",
+      "fibrex": "Fibrex PharmaTech",
+      "nutrition": "Animal Nutrition",
+      "akiese": "AkieseFarma",
+      "petris": "PetrisLab+SQA"
+    },
+    "unitsShort": {
+      "SVD": "SANEP Vida",
+      "OKV": "Okavango",
+      "ZMB": "Zambezi",
+      "FPT": "Fibrex",
+      "NTA+AKF": "Nutrition+Akiese",
+      "PTL+SQA": "Lab+Chemicals"
+    },
+    "capacity": {
+      "sanep": {
+        "name": "SANEP Vida",
+        "cap": "79.2M units/yr",
+        "note": "Galenics + Dermo + Iodopovidone"
+      },
+      "okavango": {
+        "name": "Okavango",
+        "cap": "602.8M units/yr",
+        "note": "Syrups + Tablets"
+      },
+      "zambezi": {
+        "name": "Zambezi",
+        "cap": "54M units/yr",
+        "note": "Serums: $0.50–0.55/un | Inject: $0.50–0.80"
+      },
+      "fibrex": {
+        "name": "Fibrex PharmaTech",
+        "cap": "360M units/yr",
+        "note": "B2B packaging internal + external"
+      }
+    }
+  },
+  "valuation": {
+    "title": "Detailed Valuation — Multiple Methodologies",
+    "kpiDcf": "Pre-Money DCF",
+    "kpiDcfSub": "{{label}} Scenario · {{n}} years",
+    "kpiPvFcf": "PV of FCFs",
+    "kpiPvFcfSub": "Present value of cash flows",
+    "kpiPvTv": "PV Terminal Value",
+    "kpiPvTvSub": "{{mult}}× EBITDA year {{n}}",
+    "kpiFloor": "Floor (Assets)",
+    "kpiFloorSub": "Independent ALTYS valuations",
+    "methodsTitle": "Valuation by Methodology — Pre-Money (USD M)",
+    "methodDcf": "DCF (Discounted Cash Flows)",
+    "methodDcfNote": "WACC {{wacc}}%, terminal g=5%, {{n}}yr horizon",
+    "methodMult": "Comparable EV/EBITDA ({{mult}}×)",
+    "methodMultNote": "Aspen 8-10x · Cipla Uganda 12-15x · EIPICO 9-11x",
+    "methodAssets": "Asset Value (Floor)",
+    "methodAssetsNote": "ALTYS valuations + verified replacement cost",
+    "weightedValuation": "Weighted Valuation",
+    "matrixTitle": "Pre-Money by Scenario × Horizon",
+    "matrixDesc": "The selected scenario is highlighted in the KPIs above. A longer horizon captures more value but implies greater uncertainty.",
+    "yearsAxis": "{{n}} Years",
+    "peersTitle": "Reference Peers — Africa Pharma (EV/EBITDA)",
+    "peers": {
+      "aspen": { "name": "Aspen Pharmacare (ZA)", "note": "JSE Listed", "rev": "Revenue $2.8B" },
+      "cipla": { "name": "Cipla Quality Chem (UG)", "note": "Use: growth premium", "rev": "Revenue $150M" },
+      "eipico": { "name": "EIPICO (EG)", "note": "Cairo Exchange", "rev": "Revenue $200M" },
+      "universal": { "name": "Universal Corp (KE)", "note": "Nairobi SE", "rev": "Revenue $95M" },
+      "cifab": { "name": "CIFAB (implied)", "note": "Angola — greenfield premium + 1st mover", "rev": "" }
+    }
+  },
+  "premoney": {
+    "title": "Pre-Money & Post-Money — Round Calculator",
+    "paramsTitle": "Round Parameters",
+    "preMoneyLabel": "Pre-Money Valuation (USD M)",
+    "preMoneyHint": "Conservative: $80M · Base: $100M · Optimistic: $200M+",
+    "ticketLabel": "Investment Ticket (USD M)",
+    "ticketHint": "Series A: $20–30M · Series B: $40–60M",
+    "preMoney": "Pre-Money",
+    "postMoney": "Post-Money",
+    "dilution": "Dilution",
+    "capTable": "💡 Post-round Cap Table",
+    "founders": "Founders / SANEP",
+    "newInvestors": "New Investors",
+    "returnsTitle": "Investor Returns by Exit Scenario",
+    "moic": "MOIC: {{x}}×",
+    "share": "Share {{n}}%",
+    "evShort": "EV {{value}}",
+    "exits": {
+      "year5Conservative": {
+        "label": "Year 5 Exit — Conservative",
+        "desc": "EBITDA $26M × 8×"
+      },
+      "year7Base": {
+        "label": "Year 7 Exit — Base",
+        "desc": "EBITDA $97.6M × 10× = $976M"
+      },
+      "year7Optimistic": {
+        "label": "Year 7 Exit — Optimistic",
+        "desc": "EBITDA $166.9M × 12× = $2.0B"
+      },
+      "year12Base": {
+        "label": "Year 12 Exit — Base",
+        "desc": "EBITDA $151.9M × 10× = $1.52B"
+      }
+    },
+    "roundsTitle": "Recommended Round Structure — CIFAB Global",
+    "rounds": {
+      "a": {
+        "rnd": "Series A",
+        "period": "Q4 2026 – Q1 2027",
+        "ticket": "$20–30M",
+        "preM": "$85–100M",
+        "use": "Vida scale + Okavango + Akiese + Animal Nutrition",
+        "dilution": "21–28%",
+        "milestones": "First month with >$1M revenue, Phase 2 GMP certified"
+      },
+      "b": {
+        "rnd": "Series B",
+        "period": "Q2 2028",
+        "ticket": "$40–55M",
+        "preM": "$280–350M",
+        "use": "Fibrex + Zambezi (50%) + Phase 2 Infra",
+        "dilution": "12–18%",
+        "milestones": "Revenue run-rate >$60M/yr, Okavango operational"
+      },
+      "c": {
+        "rnd": "Series C / Pre-IPO",
+        "period": "2030",
+        "ticket": "$30–40M",
+        "preM": "$600–800M",
+        "use": "Zambezi (100%) + SQA + PetrisLab + Phase 3 Infra",
+        "dilution": "4–6%",
+        "milestones": "EV >$600M, BODIVA listing prepared"
+      }
+    },
+    "roundLabels": {
+      "preMoney": "Pre-Money:",
+      "dilution": "Dilution:",
+      "use": "Use:"
+    }
+  },
+  "billion": {
+    "title": "Path to a Billion",
+    "intro": "The $1B Enterprise Value is the reference milestone. It marks CIFAB's transformation into a regional pharmaceutical benchmark — IPO candidate or strategic exit.",
+    "chartTitle": "Enterprise Value by Scenario (USD M) — 12 Years",
+    "chartConservative": "Conservative",
+    "chartBase": "Base",
+    "chartOptimistic": "Optimistic",
+    "refLabel": "$1 BILLION",
+    "scenarioPrefix": "{{label}} Scenario",
+    "waccExit": "WACC {{wacc}}% · Exit {{mult}}× EBITDA",
+    "reachedLabel": "$1B EV reached in:",
+    "billionYear": {
+      "conservative": "Not reached in 12 years",
+      "base": "2033–2034 (Year 7–8)",
+      "optimistic": "2031 (Year 5)"
+    },
+    "mathTitle": "🏆 The Math of the Billion — Base Scenario",
+    "steps": {
+      "s1": {
+        "step": "2026",
+        "label": "Series A Round",
+        "value": "Pre-Money $100M",
+        "sub": "22% dilution w/ $25M entry"
+      },
+      "s2": {
+        "step": "2030",
+        "label": "Revenue Run-Rate",
+        "value": "$210M/yr",
+        "sub": "Okavango + Vida + Fibrex operational"
+      },
+      "s3": {
+        "step": "2033",
+        "label": "EBITDA $97.6M",
+        "value": "EV = $976M",
+        "sub": "10× EBITDA — base peer multiple"
+      },
+      "s4": {
+        "step": "2034",
+        "label": "EV > $1 BILLION",
+        "value": "Investor MOIC 7–9×",
+        "sub": "Exit via BODIVA / JSE IPO or trade sale"
+      }
+    }
+  },
+  "footer": "CONFIDENTIAL | SANEP Pharma / CIFAB Luanda | Valuation Model {{year}} | For exclusive use in authorized financing processes"
+}
